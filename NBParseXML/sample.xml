@@ -1,0 +1,262 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<header class="navbar-fixed-top">
+			<div id="top-header">
+				<div class="container">
+					<a class="scritta-ministero" href="http://www.istruzione.it">Ministero
+				dell'Istruzione, dell'Universita e della Ricerca</a>
+					<div class="cerca-trigger">
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</div>
+					<span class="clearfix"></span>
+				</div>
+			</div>
+			<!-- TOP-HEADER fine -->
+			<div id="center-header">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="logo-brand">
+								<a href="/VisualizzaMaterieEsami/indirizzi/ricerca">
+									<div id="logo">
+										<img src="/VisualizzaMaterieEsami/static/img/header/logo_white.png" class="img-responsive" />
+									</div>
+									<div id="brand">
+								Motore di Ricerca delle Materie dell'esame di Stato a.s.
+								
+										<span>2018/19</span>
+									</div>
+								</a>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+						<!-- COL fine -->
+					</div>
+					<!-- ROW fine -->
+				</div>
+				<!-- CONTAINER fine -->
+			</div>
+			<!-- CENTER-HEADER fine -->
+			<!-- div class="navbar navbar-default" role="banner"><div class="container"><div class="navbar-header"><button class="navbar-toggle" type="button" data-toggle="collapse"
+					data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span
+						class="icon-bar"></span><span class="icon-bar"></span><span
+						class="icon-bar"></span></button><span id="brand-mobile">Portale Unico dei Dati della Scuola</span></div -->
+			<!-- NAVBAR HEADER (sandwich e titolo mobile) -->
+			<!-- nav class="collapse navbar-collapse"><ul class="nav navbar-nav"><li><a id="button-il-progetto" href="#">vocemenu</a></li><li><a id="button-open-data" class="" href="#">vocemenu</a></li></ul></nav -->
+			<!-- /div -->
+			<!-- CONTAINER fine -->
+			<!-- /div -->
+			<!-- NAVBAR fine -->
+			<div id="bttop">
+				<span class="glyphicon glyphicon-arrow-up marginRight"></span> Torna
+		su
+	
+			</div>
+		</header>
+		<div class="z-messages"></div>
+		<div id="container" class="container bottom-margin">
+			<!-- nav th:include="layouts/fragments/navigation ::navTag">
+		Contenuto menu
+	  </nav -->
+			<div class="row">
+				<h1 class="page-title">Risultato della Ricerca</h1>
+				<div class="col-md-12">
+					<div class="alert alert-success">
+						<dl class="dl-horizontal">
+							<dt>Percorso:</dt>
+							<dd>
+								<span>ISTITUTO TECNICO                        </span>
+							</dd>
+							<dt>Settore:</dt>
+							<dd>
+								<span>TECNOLOGICO</span>
+							</dd>
+							<dt>Indirizzi trovati:</dt>
+							<dd>
+								<span id="indrizzi-trovati">5</span>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<ul class="list-group">
+						<li class="list-group-item">
+							<span>IT05 - MECC. MECCATRON. ENER.</span>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote   indirizzi-figli" data-method="get" data-type="html" data-container="articolazioniIT05" href="/VisualizzaMaterieEsami/indirizzi/IT05/articolazioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> ARTICOLAZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="articolazioniIT05"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<span>IT09 - TRASPORTI E LOGISTICA</span>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote   indirizzi-figli" data-method="get" data-type="html" data-container="articolazioniIT09" href="/VisualizzaMaterieEsami/indirizzi/IT09/articolazioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> ARTICOLAZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="articolazioniIT09"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<span>IT10 - ELETTR. ED ELETTROTEC.</span>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote   indirizzi-figli" data-method="get" data-type="html" data-container="articolazioniIT10" href="/VisualizzaMaterieEsami/indirizzi/IT10/articolazioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> ARTICOLAZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="articolazioniIT10"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<span>IT13 - INFOR. TELECOM.</span>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote   indirizzi-figli" data-method="get" data-type="html" data-container="articolazioniIT13" href="/VisualizzaMaterieEsami/indirizzi/IT13/articolazioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> ARTICOLAZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="articolazioniIT13"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<a class="indirizzo-dettaglio" href="/VisualizzaMaterieEsami/indirizzi/IT15">
+								<span>IT15 - GRAFICA E COMUNICAZIONE                                                    </span>
+							</a>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote  indirizzi-figli" data-method="get" data-type="html" data-container="opzioniIT15" href="/VisualizzaMaterieEsami/indirizzi/IT15/opzioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> OPZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="opzioniIT15"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<a class="indirizzo-dettaglio" href="/VisualizzaMaterieEsami/indirizzi/ITGF">
+								<span>ITGF - GRAFICA E COMUNICAZIONE - SPERIMENTAZIONE &quot;GRAFICA E FOTOGRAFIA-VISUAL&quot;    </span>
+							</a>
+						</li>
+						<li class="list-group-item">
+							<a class="indirizzo-dettaglio" href="/VisualizzaMaterieEsami/indirizzi/ITTE">
+								<span>ITTE - GRAFICA E COMUNICAZIONE - SPERIMENTAZIONE &quot;CINEMA E TELEVISIONE&quot;           </span>
+							</a>
+						</li>
+						<li class="list-group-item">
+							<span>IT16 - CHIM. MATER. BIOTECN.</span>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote   indirizzi-figli" data-method="get" data-type="html" data-container="articolazioniIT16" href="/VisualizzaMaterieEsami/indirizzi/IT16/articolazioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> ARTICOLAZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="articolazioniIT16"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<span>IT19 - SISTEMA MODA</span>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote   indirizzi-figli" data-method="get" data-type="html" data-container="articolazioniIT19" href="/VisualizzaMaterieEsami/indirizzi/IT19/articolazioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> ARTICOLAZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="articolazioniIT19"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<span>IT21 - AGRARIA, AGROAL. E AGROIND.</span>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote   indirizzi-figli" data-method="get" data-type="html" data-container="articolazioniIT21" href="/VisualizzaMaterieEsami/indirizzi/IT21/articolazioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> ARTICOLAZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="articolazioniIT21"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<a class="indirizzo-dettaglio" href="/VisualizzaMaterieEsami/indirizzi/ITCA">
+								<span>ITCA - COSTRUZIONI, AMBIENTE E TERRITORIO                                         </span>
+							</a>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote   indirizzi-figli" data-method="get" data-type="html" data-container="articolazioniITCA" href="/VisualizzaMaterieEsami/indirizzi/ITCA/articolazioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> ARTICOLAZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="articolazioniITCA"></ul>
+								</li>
+							</ul>
+							<ul class="nav nav-pills nav-stacked">
+								<li>
+									<span>
+										<a class="btn btn-primary btn-xs z-remote  indirizzi-figli" data-method="get" data-type="html" data-container="opzioniITCA" href="/VisualizzaMaterieEsami/indirizzi/ITCA/opzioni">
+											<span class="glyphicon glyphicon-plus"></span>
+										</a> OPZIONI
+									
+									</span>
+									<ul class="nav nav-pills nav-stacked" id="opzioniITCA"></ul>
+								</li>
+							</ul>
+						</li>
+						<li class="list-group-item">
+							<a class="indirizzo-dettaglio" href="/VisualizzaMaterieEsami/indirizzi/ITIT">
+								<span>ITIT - ISTITUTO TECNICO INDUSTRIALE E TELECOMUNICAZIONI QUADRIENNALE              </span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-12">
+					<form method="get" action="/VisualizzaMaterieEsami/indirizzi/ricerca">
+						<input type="hidden" value="IT" id="tipoPercorso" name="tipoPercorso" />
+						<input type="hidden" value="10" id="tipoSettore" name="tipoSettore" />
+						<div class="form-group">
+							<input type="submit" value="Indietro" class="btn btn-default btn-lg" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer id="footer">
+			<p>
+				<a href="http://www.istruzione.it">Ministero dell'Istruzione, dell'Universita e della Ricerca</a>
+				<span>Tutti i diritti riservati (c) 2016</span>
+			</p>
+			<script src="/VisualizzaMaterieEsami/static/application.min.js"></script>
+		</footer>
+	</body>
+</html>
